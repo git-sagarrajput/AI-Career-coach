@@ -26,7 +26,7 @@ Architecture notes and deviations: [docs/architecture.md](docs/architecture.md).
 ### Windows (PowerShell)
 
 ```powershell
-git clone https://github.com/git-sagarrajput/AI-Career-coatch.git ai-career-coach
+git clone https://github.com/git-sagarrajput/AI-Career-coach.git ai-career-coach
 cd ai-career-coach
 py -3.12 -m venv .venv                 # or: python -m venv .venv
 .\.venv\Scripts\Activate.ps1           # if blocked: Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
@@ -42,7 +42,7 @@ streamlit run app.py                   # opens http://localhost:8501
 ### macOS / Linux
 
 ```bash
-git clone https://github.com/git-sagarrajput/AI-Career-coatch.git ai-career-coach
+git clone https://github.com/git-sagarrajput/AI-Career-coach.git ai-career-coach
 cd ai-career-coach
 python3.12 -m venv .venv
 source .venv/bin/activate
