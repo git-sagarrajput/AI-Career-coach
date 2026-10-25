@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ai-career-coach"
+version = "0.1.0"
+description = "Local, evidence-grounded resume vs job description coaching POC (Streamlit + Gemini)."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "streamlit>=1.28",        # st.status, streamlit.testing AppTest
+  "pymupdf>=1.24",          # `import pymupdf`, find_tables(), get_textpage_ocr()
+  "python-docx>=1.1",       # Paragraph.hyperlinks, Document.iter_inner_content()
+  "pydantic>=2.6",          # v2 models, model_json_schema
+  "google-genai",           # current Google Gen AI SDK (pin resolved version in lock file)
+  "httpx>=0.27",            # MockTransport, Timeout/Limits
+  "python-dotenv>=1.0",     # optional .env loading
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+career_coach = ["analysis/data/*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-m 'not live' -q"
+markers = ["live: calls real external services (Gemini/network); opt-in"]
+
+[tool.ruff]
+line-length = 110
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "S", "SIM"]
+ignore = ["S311"]
+
+[tool.ruff.lint.per-file-ignores]
+"src/career_coach/llm/prompts.py" = ["E501"]  # prompt text is kept verbatim from spec Appendix A
+"tests/**" = ["S101", "S105", "S106"]
+"scripts/**" = ["S101"]

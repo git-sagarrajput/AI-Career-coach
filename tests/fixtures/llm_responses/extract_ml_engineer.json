@@ -1,0 +1,14 @@
+{
+  "requirements": [
+    {"text": "3+ years of professional experience with Python", "category": "experience", "importance": "required", "source_span_ids": ["J006"], "source_quote": "3+ years of professional experience with Python"},
+    {"text": "Experience deploying ML inference services in production", "category": "technical_skill", "importance": "required", "source_span_ids": ["J007"], "source_quote": "Experience deploying ML inference services in production"},
+    {"text": "Hands-on experience with Kubernetes for container orchestration", "category": "tool_or_platform", "importance": "required", "source_span_ids": ["J008"], "source_quote": "Hands-on experience with Kubernetes"},
+    {"text": "Experience with AWS cloud services", "category": "tool_or_platform", "importance": "required", "source_span_ids": ["J009"], "source_quote": "Experience with AWS cloud services"},
+    {"text": "Strong SQL skills", "category": "technical_skill", "importance": "required", "source_span_ids": ["J010"], "source_quote": "Strong SQL skills"},
+    {"text": "Experience with CI/CD pipelines", "category": "technical_skill", "importance": "required", "source_span_ids": ["J011"], "source_quote": "Experience with CI/CD pipelines"},
+    {"text": "Experience with unit testing", "category": "technical_skill", "importance": "required", "source_span_ids": ["J011"], "source_quote": "unit testing"},
+    {"text": "Experience with Terraform or other infrastructure as code tools", "category": "tool_or_platform", "importance": "unspecified", "source_span_ids": ["J012"], "source_quote": "Terraform or other infrastructure as code tools"},
+    {"text": "Experience mentoring engineers", "category": "soft_skill", "importance": "preferred", "source_span_ids": ["J014"], "source_quote": "Experience mentoring engineers"}
+  ],
+  "notes": []
+}

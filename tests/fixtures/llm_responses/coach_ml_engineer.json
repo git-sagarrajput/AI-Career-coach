@@ -1,0 +1,26 @@
+{
+  "executive_summary": {
+    "overview": "The resume shows strong evidence for ML model serving, SQL and CI/CD. Kubernetes and AWS are not shown in this resume. You have a 90% chance of being hired. Adding detail on orchestration experience would help.",
+    "strongest_areas": ["ML model serving", "SQL and ETL", "CI/CD and testing"],
+    "key_gaps": ["Kubernetes not shown in this resume", "AWS not shown in this resume"],
+    "next_steps": ["Clarify any orchestration experience", "Build a small Kubernetes deployment project"]
+  },
+  "strengths": [
+    {"title": "Production ML serving", "description": "Served ONNX models through a FastAPI inference API.", "evidence_span_ids": ["R011"], "related_requirement_ids": ["REQ-02"]},
+    {"title": "Invented strength", "description": "Not grounded.", "evidence_span_ids": ["R999"], "related_requirement_ids": ["REQ-02"]}
+  ],
+  "resume_suggestions": [
+    {"target_span_id": "R014", "issue": "The impact is vague.", "suggested_rewrite": "Improved API performance of the recommendation service; describe the measurable result if you have one.", "rationale": "Specific impact helps reviewers.", "needs_user_input": true},
+    {"target_span_id": "R012", "issue": "Could be clearer.", "suggested_rewrite": "Built PyTorch training pipelines on GCP Vertex AI, reducing training time by 40%.", "rationale": "Clearer phrasing.", "needs_user_input": false},
+    {"target_span_id": "R011", "issue": "Mention orchestration.", "suggested_rewrite": "Optimized and served ONNX models on Kubernetes through a FastAPI inference API handling 2,000 requests per minute.", "rationale": "Matches the JD.", "needs_user_input": false},
+    {"target_span_id": "R018", "issue": "Lead with the outcome.", "suggested_rewrite": "Built ETL jobs and SQL queries that fed a BigQuery data warehouse.", "rationale": "Puts the data engineering work first.", "needs_user_input": false}
+  ],
+  "development_actions": [
+    {"priority": 2, "action": "Deploy a model on a local Kubernetes cluster", "reason": "Kubernetes is required (REQ-03) and not shown.", "next_step": "Containerize the existing FastAPI service and deploy it with kind or minikube.", "effort": "medium", "related_requirement_ids": ["REQ-03"]},
+    {"priority": 1, "action": "Document any AWS experience", "reason": "AWS is required (REQ-04).", "next_step": "List any AWS services you have used, or complete a small AWS free-tier exercise.", "effort": "small", "related_requirement_ids": ["REQ-04", "REQ-77"]}
+  ],
+  "clarifying_questions": [
+    {"requirement_id": "REQ-03", "question": "Have you deployed services to Kubernetes in any role or project?"},
+    {"requirement_id": "REQ-99", "question": "Unknown requirement question?"}
+  ]
+}

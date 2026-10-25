@@ -1,0 +1,55 @@
+{
+  "name": "Alex Rivera",
+  "contact": ["alex.rivera@example.com | (555) 555-0142 | Springfield"],
+  "links": [
+    {"text": "github.com/alex-rivera-demo", "url": "https://github.com/alex-rivera-demo"},
+    {"text": "linkedin.com/in/alex-rivera-demo", "url": "https://www.linkedin.com/in/alex-rivera-demo"},
+    {"text": "portfolio.example.com", "url": "https://portfolio.example.com"}
+  ],
+  "sections": [
+    {
+      "heading": "Summary",
+      "paragraphs": ["Machine learning engineer with 4 years of experience building and deploying NLP and computer vision models in Python."]
+    },
+    {
+      "heading": "Skills",
+      "table": [
+        ["Languages", "Python, SQL, C++"],
+        ["ML", "PyTorch, scikit-learn, ONNX, Hugging Face"],
+        ["Platforms", "GCP, Docker, Terraform, Linux"]
+      ]
+    },
+    {
+      "heading": "Experience",
+      "paragraphs": ["Senior ML Engineer, Northwind Analytics (2022 - Present)"],
+      "bullets": [
+        "Optimized and served ONNX models through a FastAPI inference API handling 2,000 requests per minute.",
+        "Built training pipelines in PyTorch on GCP Vertex AI, reducing training time by 30%.",
+        "Introduced CI/CD with GitHub Actions and unit testing with pytest for model code.",
+        "Improved API performance for the recommendation service.",
+        "Mentored two junior engineers and led code reviews."
+      ]
+    },
+    {
+      "heading": "Work History",
+      "paragraphs": ["ML Engineer, Contoso Retail (2020 - 2022)"],
+      "bullets": [
+        "Developed NLP models for product categorization using Hugging Face transformers.",
+        "Wrote SQL queries and ETL jobs feeding a BigQuery data warehouse.",
+        "Containerized services with Docker and deployed them to Cloud Run."
+      ]
+    },
+    {
+      "heading": "Projects",
+      "bullets": ["Real-time object detection demo with .NET and C++ bindings (github.com/alex-rivera-demo/detect)."]
+    },
+    {
+      "heading": "Education",
+      "paragraphs": ["B.Sc. Computer Science, State University, 2020"]
+    },
+    {
+      "heading": "Certifications",
+      "paragraphs": ["Google Cloud Professional Machine Learning Engineer (2023)"]
+    }
+  ]
+}

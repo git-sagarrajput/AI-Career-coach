@@ -1,0 +1,22 @@
+Data Analyst
+
+About the company
+Tailspin Outdoor Retail sells camping gear online and in 30 stores.
+
+Responsibilities
+- Build dashboards in Tableau or Power BI for business stakeholders.
+- Analyze sales data to identify trends and present findings.
+
+Requirements
+- Strong SQL skills.
+- Experience with Excel and data visualization.
+- Excellent stakeholder communication.
+- Rockstar mindset and ability to wear many hats.
+- Bachelor's degree in a quantitative field.
+
+Preferred
+- Experience with Python and pandas.
+- A/B testing experience.
+
+Benefits
+- Employee discount and paid volunteer days.

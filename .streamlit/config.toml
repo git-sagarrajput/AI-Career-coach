@@ -1,0 +1,9 @@
+[server]
+maxUploadSize = 5          # MB; keep equal to CAREER_COACH_MAX_UPLOAD_MB
+address = "localhost"
+
+[browser]
+gatherUsageStats = false
+
+[client]
+showErrorDetails = "none"

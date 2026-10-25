@@ -1,0 +1,25 @@
+Machine Learning Engineer - Inference Platform
+
+About us
+Fabrikam Robotics builds perception software for warehouse robots. We are a remote-friendly team of 40 engineers.
+
+What you'll do
+- Deploy ML inference services that serve models at low latency.
+- Collaborate with data scientists to productionize models.
+- Monitor model performance and drift in production.
+
+Requirements
+- 3+ years of professional experience with Python.
+- Experience deploying ML inference services in production.
+- Hands-on experience with Kubernetes for container orchestration.
+- Experience with AWS cloud services.
+- Strong SQL skills.
+- Experience with CI/CD pipelines and unit testing.
+
+Nice to have
+- Experience with Terraform or other infrastructure as code tools.
+- Familiarity with ONNX Runtime or TensorRT.
+- Experience mentoring engineers.
+
+Benefits
+- Health insurance, learning budget and flexible hours.

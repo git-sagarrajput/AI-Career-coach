@@ -1,0 +1,14 @@
+{
+  "assessments": [
+    {"requirement_id": "REQ-01", "classification": "partial", "evidence": [{"span_id": "R006", "relevance_note": "Summary states 4 years of experience building models in Python."}], "explanation": "The summary states 4 years of experience building and deploying models in Python.", "uncertainty": "The summary does not say how much of that time was professional Python work.", "clarifying_question": ""},
+    {"requirement_id": "REQ-02", "classification": "supported", "evidence": [{"span_id": "R011", "relevance_note": "Serving ONNX models through an inference API is deploying inference services."}, {"span_id": "R999", "relevance_note": "invented"}], "explanation": "The resume describes serving ONNX models through a FastAPI inference API.", "uncertainty": "", "clarifying_question": ""},
+    {"requirement_id": "REQ-03", "classification": "not_evidenced", "evidence": [], "explanation": "The candidate lacks Kubernetes experience.", "uncertainty": "Docker is mentioned, but no orchestration platform.", "clarifying_question": "Have you used Kubernetes or another orchestrator in any role or project?"},
+    {"requirement_id": "REQ-04", "classification": "partial", "evidence": [{"span_id": "R012", "relevance_note": "Shows cloud ML work on GCP rather than AWS."}], "explanation": "The resume shows cloud training pipelines on GCP Vertex AI.", "uncertainty": "Cloud experience is on GCP; AWS is not mentioned.", "clarifying_question": "Have you used AWS services?"},
+    {"requirement_id": "REQ-05", "classification": "supported", "evidence": [{"span_id": "R018", "relevance_note": "Wrote SQL queries in a professional role."}], "explanation": "The resume describes writing SQL queries and ETL jobs.", "uncertainty": "", "clarifying_question": ""},
+    {"requirement_id": "REQ-06", "classification": "supported", "evidence": [{"span_id": "R013", "relevance_note": "Introduced CI/CD with GitHub Actions."}], "explanation": "The resume describes introducing CI/CD with GitHub Actions.", "uncertainty": "", "clarifying_question": ""},
+    {"requirement_id": "REQ-07", "classification": "supported", "evidence": [{"span_id": "R013", "relevance_note": "Unit testing with pytest."}], "explanation": "The resume describes unit testing model code with pytest.", "uncertainty": "", "clarifying_question": ""},
+    {"requirement_id": "REQ-08", "classification": "supported", "evidence": [], "explanation": "Terraform is listed.", "uncertainty": "", "clarifying_question": ""},
+    {"requirement_id": "REQ-09", "classification": "supported", "evidence": [{"span_id": "R015", "relevance_note": "Mentored two junior engineers."}], "explanation": "The resume states the candidate mentored two junior engineers.", "uncertainty": "", "clarifying_question": ""},
+    {"requirement_id": "REQ-42", "classification": "supported", "evidence": [], "explanation": "Unknown requirement.", "uncertainty": "", "clarifying_question": ""}
+  ]
+}

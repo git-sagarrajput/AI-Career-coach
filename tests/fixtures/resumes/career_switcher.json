@@ -1,0 +1,28 @@
+{
+  "name": "Jordan Lee",
+  "contact": ["jordan.lee@example.com | 555-555-0177"],
+  "links": [],
+  "sections": [
+    {
+      "heading": null,
+      "paragraphs": [
+        "High school mathematics teacher moving into data analysis.",
+        "Mathematics Teacher, Lincoln High School (2016 - 2024)"
+      ],
+      "bullets": [
+        "Tracked student assessment results in Excel and built charts to report progress to parents and department heads.",
+        "Designed a grading spreadsheet with lookup formulas used by six teachers.",
+        "Presented term results to school leadership each quarter.",
+        "Coordinated with counselors and parents to plan student support."
+      ]
+    },
+    {
+      "heading": null,
+      "paragraphs": [
+        "Completed an online course in SQL fundamentals and wrote practice queries on a public sales dataset.",
+        "Personal project: analyzed city bike-share data in Python with pandas and published charts on a blog.",
+        "B.Ed. Mathematics Education, Riverside College"
+      ]
+    }
+  ]
+}

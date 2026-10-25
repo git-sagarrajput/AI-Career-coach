@@ -1,0 +1,9 @@
+{
+  "name": "Sam Patel",
+  "contact": ["sam.patel@example.com | 555-555-0123"],
+  "links": [],
+  "sections": [
+    {"heading": "Skills", "paragraphs": ["Python, SQL, PyTorch, Docker, Git"]},
+    {"heading": "Education", "paragraphs": ["M.Sc. Data Science, Lakeside University, 2024"]}
+  ]
+}

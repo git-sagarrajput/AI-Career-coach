@@ -1,0 +1,45 @@
+# Environments, secrets and local config
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+.venv/
+venv/
+env/
+
+# Python build / cache artefacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Logs
+*.log
+
+# Generated sample documents (recreate with scripts/generate_sample_data.py)
+sample_data/*.pdf
+sample_data/*.docx
+sample_data/*.txt
+
+# Personal documents: never commit real resumes / job descriptions
+private/
+/*.pdf
+/*.docx
+
+# OCR language data (installed with Tesseract)
+*.traineddata
+
+# Editors and OS files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
